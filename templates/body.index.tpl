@@ -9,15 +9,6 @@
           <li><a target="_blank" href="https://github.com/vimeo/graph-explorer/wiki/the-Query-interface">UI explained</a></li>
           <li><a target="_blank" href="https://github.com/vimeo/graph-explorer/wiki/Tutorial">Tutorial</a></li>
           <li><a target="_blank" href="https://github.com/vimeo/graph-explorer/wiki/GEQL">GEQL reference</a></li>
-          <!-- some day... <li class="nav-header">Options</li>
-          <li><a href="#" id="clearzoom">clear zoom</a></li> -->
-          <li class="nav-header">Suggested queries</li>
-          {{!suggested_queries['notes']}}
-          % for suggested_query in suggested_queries['queries']:
-            <li>
-             <a href="/index/{{urllib.quote(suggested_query['query'], "")}}">{{suggested_query['desc']}}</a>
-            </li>
-          % end
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
